@@ -1,0 +1,19 @@
+.hero-container{
+    background: var(--color-primary);
+    background-position: center;
+    background-size: cover;
+    border-bottom-left-radius: 6rem;
+    border-bottom-right-radius: 6rem;
+    color: var(--color-background);
+    height: min(45rem, 50rem, 55rem);
+    text-align: center;
+    width: 100%;
+}
+
+.rest-icon{
+    background: url(../../imgs/calaca.png) no-repeat;
+    margin: auto;
+    width: 35%;
+    display: block;
+    margin-left: 77rem;
+}
