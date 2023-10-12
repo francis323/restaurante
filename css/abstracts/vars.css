@@ -1,3 +1,4 @@
+/* custom properties */
 :root {
     
     /*color*/
@@ -24,13 +25,8 @@
     /*solo título*/
     --tamano-l: 4.5rem;
     /*súbtitulos para la barra de navegacion del homepage*/
-    --tamano-m: 1.25rem;
+    --tamano-m: 2rem;
     --tamano-regular: 1rem;
     /*subtitulo del header, descripción de los platillos*/
 
-
-    
-    
-
-    
 }
