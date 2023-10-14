@@ -1,1 +1,8 @@
 /*nav components*/
+.nav-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 2rem;
+}

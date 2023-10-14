@@ -1,1 +1,13 @@
 /*buttons & pics components*/
+.rest-icon{
+    height: 100%;
+    width: 100%;
+}
+
+.icon-container {
+    text-align: center;
+    padding: 20px;
+    margin: 1%;
+    border-radius: 10%;
+    width: 20%;
+}

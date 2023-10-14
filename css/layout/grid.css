@@ -1,1 +1,18 @@
 /*div's components*/
+
+.dishes-container{
+    display: grid;
+    width: 80vw;
+    margin: 2rem auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+}
+
+.dish{
+    display: grid;
+    background: var(--color-extra-4);
+    border-radius: 2rem;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
