@@ -25,10 +25,10 @@
     align-items: center;
 }
 
-.icono-mini{
-    width: 50%;
-    display: block;
-    margin: auto;
-}
+.dish-title {
+    font-size: var(--tamano-m);
+    font-family: var(--fuente-principal);
+    margin: 1rem 0 0;
+  }
   
 
