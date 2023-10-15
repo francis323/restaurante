@@ -1,1 +1,34 @@
 /*div's components*/
+
+.dishes-container{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 7rem;
+}
+
+.dish{
+    width: 15.500rem;
+    height: 13.619rem;
+    border-radius: 2.188rem;
+    text-align: center;
+}
+
+.grid-item {
+    display: grid;
+    background-color: var(--color-extra-4);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2.188rem;
+    width: 15.563rem;
+    height: 20.561rem;
+ }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+}

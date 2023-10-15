@@ -29,4 +29,8 @@
     --tamano-regular: 1rem;
     /*subtitulo del header, descripción de los platillos*/
 
+    /*weight*/
+
+    --fw-br: 900;
+
 }

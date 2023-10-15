@@ -1,1 +1,34 @@
 /*text components*/
+.banner-title{
+    color: var(--color-background);
+    font-family: var(--fuente-titulo);
+    font-size: var(--tamano-l);
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+  }
+
+.nav-text{
+    color: var(--color-background);
+    font-size: var(--tamano-m);
+}
+
+.hero-text {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dish-title {
+    font-size: var(--tamano-m);
+    font-family: var(--fuente-principal);
+    margin: 1rem 0 0;
+  }
+  
+
