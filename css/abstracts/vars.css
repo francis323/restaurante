@@ -6,14 +6,14 @@
     /*background de contenedores y en general*/
     --color-description: #E3A832;
     /*color de la descripción en el header */
+    --color-text:#F1E1BA;
     --color-primary: #3B1854;
     /*color del fondo del header, letras del homepage y contenedores, sombra de los contenedores*/
 
     /*Colores Extra utilizados en las ilustraciones*/
     --color-extra-1: #DB9BD7;
     --color-extra-2: #CAE8E7;
-    --color-extra-3: #AC0D4D;
-    --color-extra-4: #F1E1BA;
+    --color-extra-3: #AC0D4D; 
 
     /*fuentes*/
     --fuente-titulo: 'Dancing Script', cursive;
@@ -21,7 +21,7 @@
     /*fuentes*/
 
     /*tamaños*/
-    --tamano-xl: 6.5rem;
+    --tamano-xl: 6rem;
     /*solo título*/
     --tamano-l: 4.5rem;
     /*súbtitulos para la barra de navegacion del homepage*/
