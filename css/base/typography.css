@@ -1,6 +1,6 @@
 /*text components*/
 .banner-title{
-    color: var(--color-background);
+    color: var(--color-extra-4);
     font-family: var(--fuente-titulo);
     font-size: var(--tamano-l);
     left: 50%;

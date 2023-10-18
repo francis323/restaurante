@@ -32,3 +32,13 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 40px;
 }
+
+.separator{
+    padding: 20px;
+    background-color: #E3A832;
+    color: rgb(219, 0, 0);
+    border-top-right-radius: 2.188rem;
+    border-bottom-right-radius: 2.188rem;
+    margin-top: 8rem;
+    width: 50%;
+  }
