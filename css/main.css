@@ -17,51 +17,69 @@
 /*Media Queries*/
 
 @media (max-width: 1920px) {
-    .grid-container {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1536px) {
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+
+    padding: 10px;
+  }
+}
+
+@media (max-width: 1200px ) {
+  .grid-container {
       display: grid;
-      grid-template-columns: auto auto auto auto;
+      grid-template-columns: auto auto ;
       padding: 10px;
     }
-  }
-  
-  
-  @media (max-width: 1536px) {
-    .grid-container {
+    .titulo-banner{
+        font-size: var(--tamano-xl);
+    }
+    .detail-container{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media (max-width: 428px) {
+
+  .titulo-banner{
+    font-size: var(--tamano-l);
+}
+  .grid-container {
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto;
+
       padding: 10px;
     }
-  }
-  
-  @media (max-width: 1200px) {
-    .grid-container {
-        display: grid;
-        grid-template-columns: auto auto ;
-        padding: 10px;
-      }
-      .titulo-banner{
-          font-size: 50px;
-      }
-      .detail-container{
-          margin-left: 5%;
-          margin-right: 5%;
-      }
-  }
-  
-  @media (max-width: 428px) {
-    .grid-container {
+    .grid-container2 {
         display: grid;
         grid-template-columns: auto;
+
         padding: 10px;
+        text-align: center;
       }
-      .grid-container2 {
-          display: grid;
-          grid-template-columns: auto;
-          padding: 10px;
-          text-align: center;
-        }
-        .detail-container{
-          margin-left: 0%;
-          margin-right: 0%;
-      }
-  }
+      .detail-container{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .separator{
+      padding: 20px;
+      border-top-right-radius: 2.188rem;
+      border-bottom-right-radius: 2.188rem;
+      margin-top: 8rem;
+      width: 50%;
+      font-size: var(--tamano-m);
+      font-weight: var(--fw-bk);
+    }
+
+}

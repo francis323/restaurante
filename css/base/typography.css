@@ -1,15 +1,26 @@
 /*text components*/
 .banner-title{
-    color: var(--color-extra-4);
-    font-family: var(--fuente-titulo);
-    font-size: var(--tamano-l);
-    left: 50%;
-    position: absolute;
-    text-align: center;
-    top: 40%;
-    transform: translate(-50%, -50%);
-    width: 100%;
-  }
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  text-align: center;
+  font-family: var(--fuente-titulo);
+  font-size: var(--tamano-xl);
+  font-weight: 500;
+  color: var(--color-extra-4);
+}
+
+.text-card{
+  position: relative;
+  text-align: left;
+  color: var(--color-extra-5);
+  font-family: var(--fuente-principal);
+  font-size: var(--tamano-mm);
+  font-weight: var(--fw-bk);
+  bottom: 30%;
+}
 
 .nav-text{
     color: var(--color-background);
@@ -26,9 +37,9 @@
 }
 
 .dish-title {
-    font-size: var(--tamano-m);
-    font-family: var(--fuente-principal);
-    margin: 1rem 0 0;
-  }
+  font-size: var(--tamano-m);
+  font-family: var(--fuente-principal);
+  margin: 1rem 0 0;
+}
   
 

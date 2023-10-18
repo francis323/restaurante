@@ -1,10 +1,11 @@
 /*div's components*/
 
-.dishes-container{
+.content{
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     margin-top: 7rem;
+    margin-bottom: 8rem;
 }
 
 .dish{
@@ -18,27 +19,29 @@
     display: grid;
     background-color: var(--color-extra-4);
     padding: 20px;
-    font-size: 30px;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     border-radius: 2.188rem;
     width: 15.563rem;
     height: 20.561rem;
- }
+}
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    gap: 40px;
+    gap: 100px;
+    column-gap: 0px;
 }
 
 .separator{
     padding: 20px;
-    background-color: #E3A832;
-    color: rgb(219, 0, 0);
+    background-color: var(--color-extra-2);
+    color: var(--color-extra-3);
     border-top-right-radius: 2.188rem;
     border-bottom-right-radius: 2.188rem;
     margin-top: 8rem;
     width: 50%;
+    font-size: var(--tamano-l);
+    font-weight: var(--fw-bk);
   }
