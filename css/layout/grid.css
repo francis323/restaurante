@@ -1,17 +1,15 @@
 /*div's components*/
 
 .content{
-    margin-left: auto;
-    margin-right: auto;
     text-align: center;
     margin-top: 7rem;
     margin-bottom: 8rem;
 }
 
 .dish{
-    width: 15.500rem;
-    height: 13.619rem;
-    border-radius: 2.188rem;
+    width: 15.5rem;
+    height: 13.6rem;
+    border-radius: 2.2rem;
     text-align: center;
 }
 
@@ -22,12 +20,14 @@
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 2.188rem;
-    width: 15.563rem;
-    height: 20.561rem;
+    border-radius: 2.2rem;
+    width: 15.5rem;
+    height: 20.5rem;
 }
 
 .grid-container {
+    margin-left: 10rem;
+    margin-right: 10rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     gap: 100px;
@@ -35,16 +35,17 @@
 }
 
 .separator{
+    text-align: center;
     padding: 20px;
     background-color: var(--color-extra-2);
     color: var(--color-extra-3);
-    border-top-right-radius: 2.188rem;
-    border-bottom-right-radius: 2.188rem;
+    border-top-right-radius: 2.2rem;
+    border-bottom-right-radius: 2.2rem;
     margin-top: 8rem;
-    width: 50%;
+    width: 40%;
     font-size: var(--tamano-l);
     font-weight: var(--fw-bk);
-  }
+}
 
 
 /*details page*/
@@ -66,4 +67,4 @@
     border-radius: 0.5rem;
     width: 36.8rem;
     height: 29rem;
-  }
+}

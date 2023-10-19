@@ -8,7 +8,7 @@
   text-align: center;
   font-family: var(--fuente-titulo);
   font-size: var(--tamano-xl);
-  font-weight: 500;
+  font-weight: var(--fw-bk);
   color: var(--color-extra-4);
 }
 
@@ -70,5 +70,7 @@
   height: 41.2rem;
   margin: 22rem;
 }
+
+
   
 

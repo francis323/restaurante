@@ -30,7 +30,7 @@
 }
 
 .hero-description {
-    font-size: clamp(.2rem, 1vw, var(--tamano-regular));
+    font-size: clamp(.2rem, 1vw, var(--tamano-mm));
     font-family: var(--fuente-principal);
     color: var(--color-description);
     list-style: none;
@@ -99,7 +99,7 @@
     width: 100%;
     min-height: 6px;
     top: 11rem;
-  }
+}
 
 
 /*temporal
