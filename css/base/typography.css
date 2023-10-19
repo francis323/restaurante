@@ -48,5 +48,27 @@
   font-family: var(--fuente-principal);
   margin: 1rem 0 0;
 }
+
+.about-title{
+  position: absolute;
+  top: 3rem;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  width: 40%;
+  font-family: var(--fuente-titulo);
+  font-size: var(--tamano-xl);
+  font-weight: var(--fw-bk);
+  color: var(--color-primary);
+}
+
+.detail-text{
+  text-align: justify;
+  font-family: var(--fuente-principal);
+  color: var(--color-extra-5);
+  font-size: var(--tamano-regular);
+  width: 36.8rem;
+  height: 41.2rem;
+  margin: 22rem;
+}
   
 

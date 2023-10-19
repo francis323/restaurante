@@ -45,3 +45,25 @@
     font-size: var(--tamano-l);
     font-weight: var(--fw-bk);
   }
+
+
+/*details page*/
+
+.grid-dcontainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px;
+    gap: 20px;
+}
+
+.dish-detail{
+    display: grid;
+    background-color: var(--color-primary);
+    padding: 20px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.5rem;
+    width: 36.8rem;
+    height: 29rem;
+  }
