@@ -196,6 +196,17 @@
     text-align: center;
 }
 
+.top-dishes {
+    margin: 8rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8vw;
+    width: 70%;
+  }
+
 .reversible-card:hover .front {
     transform: perspective(600px) rotateY(-180deg);
 }
@@ -203,3 +214,12 @@
 .reversible-card:hover .back {
     transform: perspective(600px) rotateY(360deg);
 }
+
+
+.dishes-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
