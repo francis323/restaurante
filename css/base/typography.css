@@ -12,6 +12,11 @@
   color: var(--color-extra-4);
 }
 
+.nav-text{
+  color: var(--color-background);
+  font-size: var(--tamano-m);
+}
+
 .text-card{
   position: relative;
   text-align: left;
@@ -21,6 +26,8 @@
   font-weight: var(--fw-bk);
   bottom: 30%;
 }
+
+
 
 .nav-text{
     color: var(--color-background);

@@ -3,22 +3,42 @@
     border-bottom-left-radius: 3.75rem;
     border-bottom-right-radius: 3.75rem;
     color: var(--color-background);
-    height: min(45rem, 50rem, 55rem);
     width: 100%;
 }
-.top-container{
+
+.top-container {
     display: flex;
     height: 100%;
     width: 100%;
 }
-.header-skull-container{
+
+.header-skull-container {
     height: 100%;
-    width: 50%;
+    width: 50vw;
 }
 
-.rest-icon {
-    height: 100%;
-    width: 100%;
+.hero-title-container {
+    padding-top: 2rem;
+    padding-left: 7vw;
+}
+
+.hero-title {
+    font-size: clamp(var(--tamano-l), 5vw, var(--tamano-xl));
+    font-family: var(--fuente-titulo);
+    color: var(--color-text);
+    margin: 0;
+}
+
+.hero-description {
+    font-size: clamp(.2rem, 1vw, var(--tamano-regular));
+    font-family: var(--fuente-principal);
+    color: var(--color-description);
+    list-style: none;
+}
+
+.hero-description-container {
+    padding-left: 11vw;
+    margin: 0;
 }
 
 .nav-list {
@@ -36,19 +56,124 @@
     height: 100%;
 }
 
-.hero-title-container{
+.hero-title-container {
     padding-top: 2rem;
     padding-left: 7vw;
+    width: 100%;
 }
 
 .hero-description-container {
     padding-left: 11vw;
     margin: 0;
 }
+
 .header-flower-container {
     bottom: 0;
-    height: 35vw; /* Establece la altura en 35% del ancho de la ventana gráfica */
-    width: 45vw; /* Establece el ancho en 45% del ancho de la ventana gráfica */
+    height: 35vw;
+    /* Establece la altura en 35% del ancho de la ventana gráfica */
+    width: 45vw;
+    /* Establece el ancho en 45% del ancho de la ventana gráfica */
 }
 
 
+/*temporal
+*/
+.reversible-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: blue;
+}
+
+.reversible-card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+
+.reversible-card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.reversible-card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px var(--color-primary);
+}
+
+
+.reversible-card .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Ajusta la imagen para cubrir todo el contenedor sin estirarse */
+}
+
+.reversible-card .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    color: var(--color-background);
+    line-height: 45px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.reversible-card .back {
+    transform: perspective(600px) rotateY(180deg);
+    padding: 15px;
+    color: var(--color-primary);
+    background: var(--color-b);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 10px var(--color-primary);
+}
+
+.reversible-card .back .card-link {
+    border-top: solid 1px var(--color-background);
+    height: 50px;
+    line-height: 50px;
+}
+
+.reversible-card .back link a {
+    color: var(--color-background);
+    font-family: var(--fuente-titulo);
+}
+
+
+.reversible-card .back .h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+    font-family: var(--fuente-principal);
+    font-weight: bold;
+
+
+}
+
+.reversible-card .back p{
+    font-size: var(--tamano-regular);
+    margin-top: 20px;
+    letter-spacing: 1px;
+    font-family: var(--fuente-principal);
+    text-align: center;
+}
+
+.reversible-card:hover .front {
+    transform: perspective(600px) rotateY(-180deg);
+}
+
+.reversible-card:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
