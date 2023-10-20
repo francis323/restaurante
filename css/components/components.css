@@ -15,7 +15,7 @@
 .price{
     display: flex;
     position: absolute;
-    font-size: var(--tamano-mm);
+    font-size: var(--tamano-m);
     font-weight: var(--fw-bk);
     background: var(--color-extra-4);
     opacity: 90%;
@@ -31,12 +31,10 @@
 }
 
 .cart-btn {
-    position: absolute;
-    background: var(--clr-white);
-    border: none;
-    border-radius: 0.5rem;
-    top: 1rem;
-    right: 2rem;
+    border:none;
+	background: var(--clr-white);
+	transform: translate(260%, -80%);
+	width: 30%;
 }
 
 .about-btn{
@@ -56,14 +54,31 @@
     cursor: pointer;
 }
 
-a:link, a:visited, a:active {
-    text-decoration:none;
-    color: var(--color-extra-5);
+.cart-img {
+	width: 2.5em;
+	height: 2.5em;
+	padding-left: 11rem;
 }
 
-img{
-    display: block;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover; 
+.back-btn {
+    /*position: absolute;
+    background: var(--clr-white);
+    border: none;
+    border-radius: 0.5rem;
+    top: 1rem;
+    right: 2rem;
+	width: 20px;
+	height: 20px;*/
+	border:none;
+	background: var(--clr-white);
+	/*transform: translate(260%, -80%);*/
+	position:relative;
+	left:7%;
+	width: 30%;
+}
+
+.back-img {
+	width: 3.5em;
+	height: 3.5em;
+	
 }

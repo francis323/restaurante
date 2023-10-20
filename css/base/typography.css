@@ -22,9 +22,9 @@
   text-align: left;
   color: var(--color-extra-5);
   font-family: var(--fuente-principal);
-  font-size: var(--tamano-mm);
+  font-size: 1.5rem;
   font-weight: var(--fw-bk);
-  bottom: 30%;
+  margin: 10px;
 }
 
 

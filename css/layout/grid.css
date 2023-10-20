@@ -1,9 +1,12 @@
-/*div's components*/
-
 .content{
+    margin: 8rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    margin-top: 7rem;
-    margin-bottom: 8rem;
+    gap: 4vw;
+    width: 60%;
 }
 
 .dish{
@@ -35,15 +38,15 @@
 }
 
 .separator{
-    text-align: center;
+	text-align: center;
     padding: 20px;
     background-color: var(--color-extra-2);
     color: var(--color-extra-3);
     border-top-right-radius: 2.2rem;
     border-bottom-right-radius: 2.2rem;
     margin-top: 8rem;
-    width: 40%;
-    font-size: var(--tamano-l);
+    width: 60%;
+    font-size: clamp(var(--tamano-m), 2.5vw, var(--tamano-l));
     font-weight: var(--fw-bk);
 }
 
@@ -52,13 +55,17 @@
 
 .grid-dcontainer{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 10px;
-    gap: 20px;
+    grid-template-columns: auto auto;
+    padding-left: 5%;
+	padding-right: 5%;
+	padding-top:1%;
+    gap: 5%;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0%;
 }
 
 .dish-detail{
-    display: grid;
     background-color: var(--color-primary);
     padding: 20px;
     text-align: center;
@@ -67,4 +74,22 @@
     border-radius: 0.5rem;
     width: 36.8rem;
     height: 29rem;
+}
+
+.detail-text{
+	display: grid;
+	/*width: 20%;*/
+}
+
+.about-title{
+	position: relative;
+}
+.cart-icon-container{
+    display: flex;
+    left: 80%;
+}
+
+.text-card-container{
+    width: 100%;
+    height: 4rem;
 }
