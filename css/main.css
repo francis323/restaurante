@@ -43,6 +43,7 @@
 
   .button-container {
     display: flex;
+    
     padding-left: 0;
     margin: 0 auto;
     justify-content: center;
@@ -55,6 +56,7 @@
 
   .description-container {
     flex-direction: column;
+    max-width: 770px;
   }
 
   .description-image-container {
@@ -70,11 +72,5 @@
 
   .description-inner-text-container {
     width: 90%;
-    height: 100%;
   }
-
-  .description-inner-text-container p {
-    margin: 1vw 0
-  }
-
 }

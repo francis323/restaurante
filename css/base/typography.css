@@ -127,7 +127,6 @@
   font-family: var(--fuente-principal);
   font-weight: var(--fw-bk);
   text-decoration: none;
-
 }
 
 
@@ -147,6 +146,7 @@
   font-size: var(--tamano-regular);
   font-weight: var(--fw-bk);
   font-family: var(--fuente-principal);
+  font-size: clamp(var(--tamano-regular), 2vw, var(--tamano-m))
 
 }
 

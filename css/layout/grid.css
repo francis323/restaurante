@@ -104,8 +104,9 @@
     align-items: center;
     margin: 6vw auto;
     width: 80vw;
-    height: 80vh;
+    height: 90vh;
     box-shadow: 0 0 10px var(--color-primary);
+    max-height: 700px;
 }
 
 .description-image-container {
@@ -265,7 +266,7 @@
     padding: 2vw 0;
 }
 .button-container {
-    padding-top: 2vw;
+    padding-top: 4vw;
     padding-left: 7vw;
     margin: 0;
 }
