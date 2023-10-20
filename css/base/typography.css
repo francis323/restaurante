@@ -89,6 +89,15 @@
   margin: 1.25vw 0
 }
 
+.description-inner-text-container p {
+  font-size: clamp(.6rem, 3vw, var(--tamano-mm));
+  font-family: var(--fuente-principal);
+  font-weight: 500;
+  color: var(--color-primary);
+  padding: 0;
+  margin: 1.25vw 0
+}
+
 .hero-title {
   font-size: clamp(7vh, 5vw, var(--tamano-xl));
   font-family: var(--fuente-titulo);
@@ -130,6 +139,19 @@
   font-weight: bold;
 
 
+}
+
+.related-dishes-container a {
+  margin-right: 2vw; /* Ajusta el espaciado entre los elementos */
+  color: var(--color-primary);
+  font-size: var(--tamano-regular);
+  font-weight: var(--fw-bk);
+  font-family: var(--fuente-principal);
+
+}
+
+.related-dishes-container a:hover {
+  color: var(--color-extra-3);
 }
 
 .reversible-card .back p {

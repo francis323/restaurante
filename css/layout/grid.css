@@ -211,6 +211,13 @@
     box-shadow: 0 5px 10px var(--color-primary);
 }
 
+.related-dishes-container {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
 .reversible-card .back {
     transform: perspective(600px) rotateY(180deg);
     color: var(--color-primary);
