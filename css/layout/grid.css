@@ -208,7 +208,6 @@
 .reversible-card .front {
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 0 5px 10px var(--color-primary);
-    background: url(../../imgs/);
 }
 
 .reversible-card .back {
@@ -234,8 +233,14 @@
     width: 70%;
 }
 
-.reversible-card.flipcard  {
-    transform: perspective(600) rotateY(-180deg);
+.reversible-card.flipcard .front {
+    transform: perspective(600px) rotateY(180deg);
+    
+}
+
+.reversible-card.flipcard .back {
+    transform: perspective(600px) rotateY(360deg);
+    
 }
 
 .dishes-title-container {
@@ -250,10 +255,20 @@
     height: 6vh;
     width: 100%;
     margin: 0;
-    padding: 1vw 0;
+    padding: 2vw 0;
 }
 .button-container {
     padding-top: 2vw;
     padding-left: 7vw;
     margin: 0;
 }
+
+
+.footer-image-container{
+    height: 100%;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 4vw ;
+}
+

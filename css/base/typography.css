@@ -43,6 +43,12 @@
   font-size: clamp(.8rem, 2vw, var(--tamano-m));
 }
 
+.footer-text{
+  color: var(--color-text);
+  font-size: clamp(.8rem, 2vw, var(--tamano-m));
+  margin-left: 4vh;
+}
+
 .hero-text {
   width: 100%;
   height: 100%;

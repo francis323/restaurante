@@ -1,4 +1,9 @@
 /*buttons & pics components*/
+
+.footer-image{
+    width: 4vh;
+    height: 4vh;
+}
 .rest-icon{
     height: 100%;
     width: 100%;

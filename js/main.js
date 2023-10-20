@@ -1,10 +1,9 @@
+const reversibleCards = document.querySelectorAll(".reversible-card");
+
 function flipReversibleCards() {
-    const reversibleCards = document.querySelectorAll(".reversible-card");
     reversibleCards.forEach((reversibleCard) => {
-
-        reversibleCard.addEventListener("click", function (event) {
+        reversibleCard.addEventListener("click", () => {
             reversibleCard.classList.toggle("flipcard");
-
         });
     });
 }
