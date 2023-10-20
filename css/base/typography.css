@@ -113,9 +113,12 @@
   text-align: center;
 }
 
-.reversible-card .back link a {
-  color: var(--color-background);
-  font-family: var(--fuente-titulo);
+.reversible-card .back .card-link a {
+  color: var(--color-primary);
+  font-family: var(--fuente-principal);
+  font-weight: var(--fw-bk);
+  text-decoration: none;
+
 }
 
 
