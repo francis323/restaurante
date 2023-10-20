@@ -1,5 +1,5 @@
 /*text components*/
-.banner-title{
+.banner-title {
   position: absolute;
   top: 30%;
   left: 50%;
@@ -12,12 +12,12 @@
   color: var(--color-extra-4);
 }
 
-.nav-text{
+.nav-text {
   color: var(--color-background);
   font-size: var(--tamano-m);
 }
 
-.text-card{
+.text-card {
   position: relative;
   text-align: left;
   color: var(--color-extra-5);
@@ -29,18 +29,18 @@
 
 
 
-.nav-text{
-    color: var(--color-background);
-    font-size: var(--tamano-m);
+.nav-text {
+  color: var(--color-text);
+  font-size: clamp(.8rem, 2vw, var(--tamano-m));
 }
 
 .hero-text {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .dish-title {
@@ -49,7 +49,7 @@
   margin: 1rem 0 0;
 }
 
-.about-title{
+.about-title {
   position: absolute;
   top: 3rem;
   left: 40%;
@@ -61,7 +61,7 @@
   color: var(--color-primary);
 }
 
-.detail-text{
+.detail-text {
   text-align: justify;
   font-family: var(--fuente-principal);
   color: var(--color-extra-5);
@@ -70,7 +70,3 @@
   height: 41.2rem;
   margin: 22rem;
 }
-
-
-  
-
