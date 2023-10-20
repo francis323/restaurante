@@ -1,4 +1,4 @@
-<!D<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,7 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tacontento</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,700&family=Raleway:wght@200;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,500;1,400;1,700&family=Raleway:wght@200;300;400;500;700;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="../css/main.css">
 
 </head>
@@ -15,35 +17,42 @@
 <body>
 
     <header>
-        <h1 class="about-title">About The Dish</h1>
-		
-		<button class="back-btn"><a href="../pages/menu.html">
-				 <img class="back-img" src="../imgs/back.png" alt="back">
-				</a></button>
-        <div class="line"></div>
-    
-        <div class="grid-dcontainer">
-                <div class="detail-container">
-					<img class="dish-detail" src="../imgs/main/pozole.jpg"></img>
-					
-				</div>
-				<div class="detail-container">
-                    <p class="detail-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam, quidem? Nam nobis eligendi
-                        consequatur dolores. Nisi, recusandae dolorem. Quod ut amet vitae suscipit corrupti modi? Quas odio
-                        vel nostrum accusantium.</p>
-                </div>
-				<div class="detail-container">
-					<a href="../index.html"><button class="pay-btn">Pay</button></a>     
-				</div>
-				<div class="detail-container">
-					<a href="../index.html"><button class="cart-btn-2"><img class="cart-img" src="../imgs/carrito_de_compras2.png" alt="cart"></button></a>    
-				</div>
-             
+        <div class="nav-bar">
+            <ul class="nav-list">
+                <li class="nav-text"><a class="nav-link" href="#">Login</a></li>
+                <li class="nav-text"><a class="nav-link" href="./menu.html">Go back</a></li>
+                <li class="nav-text"><a class="nav-link" href="../index.html">Homepage</a></li>
+                <li class="nav-text"><a class="nav-link" href="#">Support</a></li>
+            </ul>
         </div>
-    
-    </header>
-</body>
 
-<script src="../js/main.js"></script>
+        <div class="about-title-container">
+            <h1 class="about-title">About The Dish</h1>
+        </div>
+        <div class="line"></div>
+    </header>
+
+    <div class="description-container">
+        <div class="description-image-container">
+            <img src="../imgs/main/chiles_en_nogada.jpg" alt="mole">
+        </div>
+        <div class="description-text-container">
+            <div class="description-inner-text-container">
+                <h2 class="about-dish-title">Chiles en nogada</h2>
+                <p>Chile poblano stuffed with minced meat, fruits, and nuts, covered with walnut sauce and pomegranate seeds.</p>
+                <p>Category: Main dish</p>
+                <p>dish for 2 people</p>
+                <p>Price: 10$</p>
+                <div class="button-container">
+                    <button class="about-cart-button" onclick="window.location.href='./pages/menu.html'">Add to
+                        cart</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/main.js"></script>
+
+</body>
 
 </html>

@@ -5,4 +5,14 @@
     justify-content: space-around;
     align-items: center;
     height: 2rem;
+    margin: 0;
+    padding: 2vw;
+}
+
+.reversible-card .back .card-link {
+    border-top: solid 1px var(--color-background);
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    justify-content: space-around;
 }

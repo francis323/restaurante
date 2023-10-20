@@ -1,4 +1,4 @@
-.content{
+.content {
     margin: 8rem auto;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +9,7 @@
     width: 60%;
 }
 
-.dish{
+.dish {
     width: 15.5rem;
     height: 13.6rem;
     border-radius: 2.2rem;
@@ -37,8 +37,8 @@
     column-gap: 0px;
 }
 
-.separator{
-	text-align: center;
+.separator {
+    text-align: center;
     padding: 20px;
     background-color: var(--color-extra-2);
     color: var(--color-extra-3);
@@ -53,19 +53,19 @@
 
 /*details page*/
 
-.grid-dcontainer{
+.grid-dcontainer {
     display: grid;
     grid-template-columns: auto auto;
     padding-left: 5%;
-	padding-right: 5%;
-	padding-top:1%;
+    padding-right: 5%;
+    padding-top: 1%;
     gap: 5%;
-	margin-left: auto;
-	margin-right: auto;
-	bottom: 0%;
+    margin-left: auto;
+    margin-right: auto;
+    bottom: 0%;
 }
 
-.dish-detail{
+.dish-detail {
     background-color: var(--color-primary);
     padding: 20px;
     text-align: center;
@@ -76,20 +76,184 @@
     height: 29rem;
 }
 
-.detail-text{
-	display: grid;
-	/*width: 20%;*/
+.detail-text {
+    display: grid;
+    /*width: 20%;*/
 }
 
-.about-title{
-	position: relative;
-}
-.cart-icon-container{
+.cart-icon-container {
     display: flex;
     left: 80%;
 }
 
-.text-card-container{
+.text-card-container {
     width: 100%;
     height: 4rem;
+}
+
+.about-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 6vw auto;
+    width: 80vw;
+    height: 80vh;
+    box-shadow: 0 0 10px var(--color-primary);
+}
+
+.description-image-container {
+    width: 50%;
+    height: 100%;
+    background-color: var(--color-primary);
+}
+
+.description-text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    padding: 0;
+}
+
+.description-inner-text-container {
+    width: 80%;
+    height: 100%;
+    margin: 2rem auto;
+    padding: 0;
+}
+
+.hero-container {
+    background: var(--color-primary);
+    border-bottom-left-radius: 3.75rem;
+    border-bottom-right-radius: 3.75rem;
+    color: var(--color-background);
+    width: 100%;
+    height: 80%;
+}
+
+.top-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+}
+
+.header-skull-container {
+    height: 100%;
+    width: 50vw;
+}
+
+.hero-title-container {
+    padding-top: 7vh;
+    padding-left: 7vw;
+
+}
+
+.hero-text-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 2vw;
+    width: 50%;
+    height: 100%;
+}
+
+
+.hero-description-container {
+    padding-left: 11vw;
+    margin: 0;
+}
+
+.banner {
+    background: var(--color-primary) no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 30vh;
+    border-bottom-left-radius: 3.75rem;
+    border-bottom-right-radius: 3.75rem;
+}
+
+.reversible-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: blue;
+}
+
+.reversible-card {
+    position: relative;
+    width: 300px;
+    height: 350px;
+}
+
+.reversible-card .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    transition: 1s;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.reversible-card .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px var(--color-primary);
+    background: url(../../imgs/);
+}
+
+.reversible-card .back {
+    transform: perspective(600px) rotateY(180deg);
+    padding: 15px;
+    color: var(--color-primary);
+    background: var(--color-b);
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 5px 10px var(--color-primary);
+}
+
+.top-dishes {
+    margin: 8rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8vw;
+    width: 70%;
+}
+
+.reversible-card.flipcard  {
+    transform: perspective(600) rotateY(-180deg);
+}
+
+.dishes-title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.nav-bar {
+    background-color: var(--color-primary);
+    height: 6vh;
+    width: 100%;
+    margin: 0;
+    padding: 1vw 0;
+}
+.button-container {
+    padding-top: 2vw;
+    padding-left: 7vw;
+    margin: 0;
 }
