@@ -160,6 +160,7 @@
   letter-spacing: 1px;
   font-family: var(--fuente-principal);
   text-align: center;
+  margin: 28px 32px 0px;
 }
 
 .top-dishes-title {
